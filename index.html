@@ -7,7 +7,11 @@
   <meta name="description" content="Grape Games is an independent studio making original Minecraft: Bedrock Edition worlds and add-ons, including Giant's Abandoned Garden and Gold Golem Logistics.">
   <meta property="og:title" content="Grape Games — Minecraft Content Studio">
   <meta property="og:description" content="Original Minecraft Bedrock worlds and add-ons: Giant's Abandoned Garden and Gold Golem Logistics.">
-  <meta property="og:image" content="assets/garden/hero.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://grapegames3141.github.io/im-crafty/">
+  <meta property="og:image" content="https://grapegames3141.github.io/im-crafty/assets/garden/hero.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://grapegames3141.github.io/im-crafty/">
   <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,9 +22,9 @@
   <header class="nav">
     <a class="brand" href="#top"><img src="assets/logo.svg" alt="" width="36" height="36"> Grape Games</a>
     <nav>
-      <a href="#garden">Giant's Garden</a>
-      <a href="#golem">Gold Golems</a>
-      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#publishers">For publishers</a>
+      <a href="press.html">Media kit</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -67,6 +71,9 @@
         <h2>Giant's Abandoned Garden</h2>
         <p class="section-lead">A giant's garden has been left to grow wild, and you're small enough to get lost in it. Wander between towering mushrooms, climb lookouts in the roots of an ancient tree, find tiny cottages hidden inside a cracked flowerpot, and cross a lily-pad pond beside a rusting garden spade.</p>
       </div>
+      <!-- TRAILER: paste the YouTube video ID below and remove the comment markers.
+      <div class="video"><iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID" title="Giant's Abandoned Garden trailer" allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+      -->
       <figure class="feature">
         <img src="assets/garden/hero.jpg" alt="The garden by day and at dusk" loading="lazy">
         <figcaption>The garden by day and at dusk. <em>Concept art.</em></figcaption>
@@ -102,6 +109,9 @@
         <h2>Gold Golem Logistics</h2>
         <p class="section-lead">Logistics you can watch. Upgrade a copper golem into a Gold Golem, set a request on a Gold Chest, and your golem walks the items over from your supply chests. There's no teleporting and nothing hidden: every delivery is a golem carrying a crate across your base.</p>
       </div>
+      <!-- TRAILER: paste the YouTube video ID below and remove the comment markers.
+      <div class="video"><iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID" title="Gold Golem Logistics trailer" allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+      -->
       <div class="two-col">
         <figure class="feature"><img src="assets/golem/concept.jpg" alt="Gold Golem and Gold Chest from several angles" loading="lazy"><figcaption>Gold Golem and Gold Chest. <em>Concept art.</em></figcaption></figure>
         <ul class="bullets">
@@ -125,6 +135,25 @@
         <figure><img src="assets/golem/guide-chests.jpg" alt="Guidebook page: Samples and Storage" loading="lazy"></figure>
         <figure><img src="assets/golem/guide-first-delivery.jpg" alt="Guidebook page: First Delivery" loading="lazy"></figure>
       </div>
+    </section>
+
+    <section id="publishers" class="section">
+      <h2>For publishers</h2>
+      <p class="section-lead">We build Marketplace-ready content and take it from concept to a tested release. Here's what a partner gets from us.</p>
+      <div class="grid four">
+        <div class="pill-card"><div class="icon">📦</div><h3>Ready-to-ship packages</h3><p>.mcworld and .mcaddon builds with versioned packs, unique identifiers and SHA-256 checksums.</p></div>
+        <div class="pill-card"><div class="icon">🧪</div><h3>Tested on real Bedrock</h3><p>Automated tests, dedicated-server runs and native client QA before every release.</p></div>
+        <div class="pill-card"><div class="icon">🖼️</div><h3>Store assets</h3><p>Key art, screenshots, trailers and store descriptions for every product. <a href="press.html">See our media kit</a>.</p></div>
+        <div class="pill-card"><div class="icon">🔁</div><h3>Ongoing support</h3><p>Fixes and updates after launch as Minecraft changes, with each change documented.</p></div>
+      </div>
+      <h3 class="sub">How we work</h3>
+      <ol class="steps">
+        <li><b>Concept</b><span>Visual references and a written plan for each area or feature.</span></li>
+        <li><b>Build</b><span>Original models, textures, scripts and builds made from scratch for each project.</span></li>
+        <li><b>Validate</b><span>Pack and schema checks, unit tests and dedicated-server runs.</span></li>
+        <li><b>Play-test</b><span>Hands-on testing in the Bedrock client, with a record of what was checked.</span></li>
+        <li><b>Release</b><span>Packaged builds and store assets, ready for publisher review.</span></li>
+      </ol>
     </section>
 
     <section id="about" class="section alt">
@@ -154,9 +183,11 @@
   </main>
 
   <footer class="footer">
+    <p class="footer-links"><a href="press.html">Media kit</a> · <a href="privacy.html">Privacy</a> · <a href="https://github.com/GrapeGames3141">GitHub</a></p>
     <p>© <span id="year">2026</span> Grape Games. All rights reserved.</p>
     <p class="legal">NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.</p>
   </footer>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <dialog id="lightbox" aria-label="Image viewer"><img alt=""><p></p><button type="button" aria-label="Close">✕</button></dialog>
+  <script src="site.js"></script>
 </body>
 </html>
