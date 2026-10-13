@@ -1,8 +1,8 @@
 # Grape Games — Minecraft portfolio site
 
-Static site published with GitHub Pages. No build step: edit `index.html` / `styles.css` and push.
+Static site published with GitHub Pages from `main` (root). No build step: edit `index.html` / `styles.css` and push.
 
-## Updating the portfolio
-- Each project is an `<article class="card">` in the `#portfolio` section of `index.html`.
-- Put screenshots in `assets/` (16:9 PNG/JPG works best) and point the card's `<img src>` at them.
-- Status tags: `tag dev` (In development), `tag concept` (Concept), `tag live` (Released).
+## Content
+- Project sections: `#garden` (Giant's Abandoned Garden) and `#golem` (Gold Golem Logistics).
+- Images in `assets/` are web-sized copies of art from the `GrapeGames3141/minecraft-bits` repo.
+- The Giant's Garden images are concept art; swap in real in-game screenshots when available.

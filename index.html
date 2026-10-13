@@ -4,9 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Grape Games — Minecraft Content Studio</title>
-  <meta name="description" content="Grape Games is an independent studio creating original Minecraft Bedrock worlds, add-ons, skin packs and texture packs.">
+  <meta name="description" content="Grape Games is an independent studio making original Minecraft: Bedrock Edition worlds and add-ons, including Giant's Abandoned Garden and Gold Golem Logistics.">
   <meta property="og:title" content="Grape Games — Minecraft Content Studio">
-  <meta property="og:description" content="Original Minecraft Bedrock worlds, add-ons, skins and textures.">
+  <meta property="og:description" content="Original Minecraft Bedrock worlds and add-ons: Giant's Abandoned Garden and Gold Golem Logistics.">
+  <meta property="og:image" content="assets/garden/hero.jpg">
   <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,19 +18,19 @@
   <header class="nav">
     <a class="brand" href="#top"><img src="assets/logo.svg" alt="" width="36" height="36"> Grape Games</a>
     <nav>
-      <a href="#portfolio">Portfolio</a>
+      <a href="#garden">Giant's Garden</a>
+      <a href="#golem">Gold Golems</a>
       <a href="#about">About</a>
-      <a href="#services">What we make</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <main id="top">
-    <section class="hero">
+    <section class="hero" style="--hero-img:url('assets/garden/hero.jpg')">
       <div class="hero-inner">
         <p class="eyebrow">Independent Minecraft Studio</p>
         <h1>Blocky worlds,<br>juicy ideas.</h1>
-        <p class="lead">Grape Games designs original Minecraft: Bedrock Edition content — adventure maps, minigames, add-ons, skin packs and texture packs — built for players of every age.</p>
+        <p class="lead">Grape Games makes original Minecraft: Bedrock Edition content: hand-shaped worlds and gameplay add-ons, built and tested in-house.</p>
         <div class="cta">
           <a class="btn primary" href="#portfolio">See our work</a>
           <a class="btn" href="#contact">Get in touch</a>
@@ -39,47 +40,90 @@
 
     <section id="portfolio" class="section">
       <h2>Portfolio</h2>
-      <p class="section-lead">Our current projects. Each one is original work built for the Minecraft Marketplace.</p>
+      <p class="section-lead">Two projects in active development for the Minecraft Marketplace.</p>
       <div class="grid">
-        <!-- Each project is one <article>. Copy a block to add another; drop screenshots in assets/ and update the img src. -->
-        <article class="card">
-          <div class="thumb thumb-a"><img src="assets/project-crafty.svg" alt="I'm Crafty key art"></div>
+        <a class="card" href="#garden">
+          <div class="thumb"><img src="assets/garden/overview.jpg" alt="Giant's Abandoned Garden overview concept art"></div>
           <div class="card-body">
-            <span class="tag dev">In development</span>
-            <h3>I'm Crafty</h3>
-            <p>Our flagship project for the Minecraft Marketplace. A creative crafting experience designed around discovery, building and play.</p>
-            <ul class="meta">
-              <li><b>Type:</b> World / Add-on</li>
-              <li><b>Platform:</b> Bedrock Edition</li>
-            </ul>
+            <span class="tag dev">World · In development</span>
+            <h3>Giant's Abandoned Garden</h3>
+            <p>Explore a garden left behind by giants, where you're the size of a beetle among mushrooms, roots and a forgotten spade.</p>
           </div>
-        </article>
+        </a>
+        <a class="card" href="#golem">
+          <div class="thumb"><img src="assets/golem/concept.jpg" alt="Gold Golem and Gold Chest concept"></div>
+          <div class="card-body">
+            <span class="tag dev">Add-on · In testing</span>
+            <h3>Gold Golem Logistics</h3>
+            <p>Upgrade copper golems into Gold Golems that physically walk your items between Gold Chests.</p>
+          </div>
+        </a>
+      </div>
+    </section>
 
-        <article class="card">
-          <div class="thumb thumb-b"><img src="assets/project-skins.svg" alt="Skin pack preview"></div>
-          <div class="card-body">
-            <span class="tag dev">In development</span>
-            <h3>Grape Crew Skin Pack</h3>
-            <p>A set of original character skins featuring the Grape Games crew, with a bright, playful art style.</p>
-            <ul class="meta">
-              <li><b>Type:</b> Skin Pack</li>
-              <li><b>Platform:</b> Bedrock Edition</li>
-            </ul>
-          </div>
-        </article>
+    <section id="garden" class="section project alt">
+      <div class="project-head">
+        <span class="tag dev">World · In development</span>
+        <h2>Giant's Abandoned Garden</h2>
+        <p class="section-lead">A giant's garden has been left to grow wild, and you're small enough to get lost in it. Wander between towering mushrooms, climb lookouts in the roots of an ancient tree, find tiny cottages hidden inside a cracked flowerpot, and cross a lily-pad pond beside a rusting garden spade.</p>
+      </div>
+      <figure class="feature">
+        <img src="assets/garden/hero.jpg" alt="The garden by day and at dusk" loading="lazy">
+        <figcaption>The garden by day and at dusk. <em>Concept art.</em></figcaption>
+      </figure>
+      <div class="two-col">
+        <ul class="bullets">
+          <li><b>Five giant mushrooms</b> forming a grove you can walk beneath</li>
+          <li><b>Three cottages</b> built inside an intact giant flowerpot</li>
+          <li><b>Two root lookouts</b> on a sprawling ancient tree</li>
+          <li><b>A pond</b> with lily pads and a crossing</li>
+          <li><b>A giant pointed spade</b> as a landmark</li>
+          <li>Six dense habitat zones linked by a network of paths</li>
+        </ul>
+        <ul class="facts">
+          <li><span>Type</span><b>Creative world</b></li>
+          <li><span>Edition</span><b>Bedrock</b></li>
+          <li><span>Build</span><b>Pure vanilla blocks</b></li>
+          <li><span>Version</span><b>v1.2.0 candidate</b></li>
+        </ul>
+      </div>
+      <div class="gallery">
+        <figure><img src="assets/garden/pot-cottages.jpg" alt="Cottages inside the giant flowerpot" loading="lazy"><figcaption>Flowerpot cottages</figcaption></figure>
+        <figure><img src="assets/garden/mushroom-grove.jpg" alt="Giant mushroom grove" loading="lazy"><figcaption>Mushroom grove</figcaption></figure>
+        <figure><img src="assets/garden/spade.jpg" alt="The pointed spade landmark" loading="lazy"><figcaption>The spade</figcaption></figure>
+        <figure><img src="assets/garden/roots.jpg" alt="Giant tree roots" loading="lazy"><figcaption>Root lookouts</figcaption></figure>
+      </div>
+      <p class="note">All images in this section are concept art used to plan the build. In-game screenshots will follow.</p>
+    </section>
 
-        <article class="card">
-          <div class="thumb thumb-c"><img src="assets/project-map.svg" alt="Adventure map preview"></div>
-          <div class="card-body">
-            <span class="tag concept">Concept</span>
-            <h3>Vineyard Valley</h3>
-            <p>An adventure map with quests, puzzles and custom mobs set in a sprawling purple-tinted valley.</p>
-            <ul class="meta">
-              <li><b>Type:</b> Adventure Map</li>
-              <li><b>Platform:</b> Bedrock Edition</li>
-            </ul>
-          </div>
-        </article>
+    <section id="golem" class="section project">
+      <div class="project-head">
+        <span class="tag dev">Add-on · In testing</span>
+        <h2>Gold Golem Logistics</h2>
+        <p class="section-lead">Logistics you can watch. Upgrade a copper golem into a Gold Golem, set a request on a Gold Chest, and your golem walks the items over from your supply chests. There's no teleporting and nothing hidden: every delivery is a golem carrying a crate across your base.</p>
+      </div>
+      <div class="two-col">
+        <figure class="feature"><img src="assets/golem/concept.jpg" alt="Gold Golem and Gold Chest from several angles" loading="lazy"><figcaption>Gold Golem and Gold Chest. <em>Concept art.</em></figcaption></figure>
+        <ul class="bullets">
+          <li><b>Gold Chests</b>: 27-slot containers. Put one item in the first slot to request it; leave it empty to make the chest a supplier.</li>
+          <li><b>Gold Upgrade</b>: turns a copper golem into a Gold Golem that serves chests around its home.</li>
+          <li><b>Logistics Ledger</b>: sets a golem's range (16–64 blocks) and each chest's request size.</li>
+          <li><b>Illustrated in-game guide</b>: every player gets the guidebook automatically, with a text view and a picture view.</li>
+          <li>Custom models, textures and animations, including a carry pose when a golem has cargo.</li>
+        </ul>
+      </div>
+      <div class="icons">
+        <figure><img src="assets/golem/chest-icon.png" alt="Gold Chest icon" class="pixel"><figcaption>Gold Chest</figcaption></figure>
+        <figure><img src="assets/golem/upgrade-icon.png" alt="Gold Upgrade icon" class="pixel"><figcaption>Gold Upgrade</figcaption></figure>
+        <figure><img src="assets/golem/ledger-icon.png" alt="Logistics Ledger icon" class="pixel"><figcaption>Ledger</figcaption></figure>
+        <figure><img src="assets/golem/egg-icon.png" alt="Gold Golem spawn egg icon" class="pixel"><figcaption>Spawn Egg</figcaption></figure>
+      </div>
+      <h3 class="sub">In-game guidebook pages</h3>
+      <div class="gallery tall">
+        <figure><img src="assets/golem/guide-cover.jpg" alt="Guidebook cover page" loading="lazy"></figure>
+        <figure><img src="assets/golem/guide-routes.jpg" alt="Guidebook page: A Helper with a Home" loading="lazy"></figure>
+        <figure><img src="assets/golem/guide-chests.jpg" alt="Guidebook page: Samples and Storage" loading="lazy"></figure>
+        <figure><img src="assets/golem/guide-first-delivery.jpg" alt="Guidebook page: First Delivery" loading="lazy"></figure>
       </div>
     </section>
 
@@ -87,29 +131,19 @@
       <div class="two-col">
         <div>
           <h2>About Grape Games</h2>
-          <p>Grape Games is a small, independent team that loves making things in Minecraft. We focus on original, family-friendly content with polished building, clean scripting and a sense of humor.</p>
-          <p>Every project is made in-house from scratch: no reused or third-party assets, and fully compliant with the Minecraft Usage Guidelines and Marketplace content standards.</p>
+          <p>Grape Games is a small, independent studio that makes Minecraft: Bedrock Edition content. We care about craft: worlds planned zone by zone, add-ons with custom art and animation, and testing on real Bedrock servers and clients before anything ships.</p>
+          <p>All our models, textures and builds are made in-house for each project, following the Minecraft Usage Guidelines and Marketplace content standards.</p>
         </div>
         <ul class="facts">
           <li><span>Edition</span><b>Bedrock</b></li>
-          <li><span>Focus</span><b>Marketplace content</b></li>
+          <li><span>We make</span><b>Worlds &amp; add-ons</b></li>
           <li><span>Audience</span><b>All ages</b></li>
-          <li><span>Assets</span><b>100% original</b></li>
+          <li><span>Testing</span><b>Dedicated server &amp; client</b></li>
         </ul>
       </div>
     </section>
 
-    <section id="services" class="section">
-      <h2>What we make</h2>
-      <div class="grid four">
-        <div class="pill-card"><div class="icon">🗺️</div><h3>Worlds &amp; Maps</h3><p>Adventure, parkour, minigame and survival-spawn worlds.</p></div>
-        <div class="pill-card"><div class="icon">🧩</div><h3>Add-ons</h3><p>Custom blocks, items, mobs and gameplay with behavior packs.</p></div>
-        <div class="pill-card"><div class="icon">🧑‍🎨</div><h3>Skin Packs</h3><p>Original characters with a consistent, recognizable style.</p></div>
-        <div class="pill-card"><div class="icon">🎨</div><h3>Texture Packs</h3><p>Cohesive resource packs that give the game a fresh look.</p></div>
-      </div>
-    </section>
-
-    <section id="contact" class="section alt">
+    <section id="contact" class="section">
       <h2>Contact</h2>
       <p class="section-lead">Publishers, partners and players: we'd love to hear from you.</p>
       <div class="contact">
