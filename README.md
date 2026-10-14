@@ -9,10 +9,10 @@ No build step: edit the HTML/CSS and push.
 - `privacy.html`, `404.html`, `robots.txt`, `sitemap.xml`
 
 ## Adding screenshots and trailers
-- Screenshots: save 1920×1080 JPGs in `assets/garden/` or `assets/golem/` and add a
+- Screenshots: in-game captures live in `assets/shots/<project>/` (resized copies of `minecraft-bits/screenshots`). Add a
   `<figure><img src="..." alt="..." loading="lazy"><figcaption>...</figcaption></figure>` to that project's `.gallery`.
   Gallery and feature images open full-size on click.
 - Trailers: each project section has a commented-out `<div class="video">` YouTube embed. Put in the video ID and remove the comment markers.
-- Once real screenshots replace the concept art, remove the "concept art" notes in `index.html` and `press.html`.
+- Only use real in-game captures for screenshots; no concept art or mockups.
 
 Art comes from the `GrapeGames3141/minecraft-bits` repo, resized for the web.

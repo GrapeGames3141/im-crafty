@@ -56,7 +56,7 @@ h3{margin:.3em 0}
 figcaption{font-size:.85rem;color:var(--muted);margin-top:6px}
 .bullets{margin:0;padding-left:20px}
 .bullets li{margin-bottom:8px}
-.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:32px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;margin-top:32px}
 .gallery figure{margin:0}
 .gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border:2px solid var(--line)}
 .gallery.tall img{aspect-ratio:2/3}
@@ -92,3 +92,5 @@ dialog#lightbox button{position:fixed;top:12px;right:16px;background:var(--leaf)
 table.fact{border-collapse:collapse;width:100%}
 table.fact td{border-bottom:1px solid var(--line);padding:8px 4px;vertical-align:top}
 table.fact td:first-child{color:var(--muted);width:40%}
+.grid.three{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.golem-thumb{background:#efe2c4}.golem-thumb img{object-fit:cover;object-position:50% 12%}
