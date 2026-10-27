@@ -4,7 +4,7 @@ Static site published with GitHub Pages from `main` (root): https://grapegames31
 No build step: edit the HTML/CSS and push.
 
 ## Pages
-- `index.html` — portfolio, project sections (`#garden`, `#golem`), for-publishers, about, contact
+- `index.html` — portfolio, project sections (`#phoenix`, `#frontiers`, `#garden`, `#relic`, `#hollow`, `#golem`), for-publishers, about, contact
 - `press.html` — media kit: logo, store descriptions, fact sheets, key art downloads
 - `privacy.html`, `404.html`, `robots.txt`, `sitemap.xml`
 
